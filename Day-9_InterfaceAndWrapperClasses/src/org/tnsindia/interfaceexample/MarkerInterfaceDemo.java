@@ -9,9 +9,11 @@ import java.util.Scanner;
  *  and any modification should not violate that.
  */
 
-
+//Cloneable is an interface that is used to create the exact copy of an object.
 interface Clonable
 {
+	
+	
 	/*It is an empty interface (no field or methods). Examples of marker interface are 
 	 * Serializable,
 	 * Cloneable and Remote interface. 
@@ -30,6 +32,10 @@ class Product implements Cloneable
 		this.pname = pname;  
 		this.pcost = pcost;  
 	}  
+	//clone method 
+    public Object clone()throws CloneNotSupportedException{     
+        return super.clone();  
+    }  
 	//method that prints the detail on the console  
 	public void showDetail()   
 	{  
@@ -40,7 +46,7 @@ class Product implements Cloneable
 }
 public class MarkerInterfaceDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CloneNotSupportedException {
 		
 		
 		//reading values of the product from the user  
@@ -53,8 +59,13 @@ public class MarkerInterfaceDemo {
 		double pcost = sc.nextDouble();  
 		System.out.println("-------Product Detail--------");  
 		Product p1 = new Product(pid, pname, pcost);  
+		//clone the s1 object
+        Product p2=(Product)p1.clone();  
 		//cloning the object of the Product class using the clone() method  
-		p1.showDetail();  
+        System.out.printf("Original Product object: ");
+        p1.showDetail();
+        System.out.println("Cloned Product object: " );
+        p2.showDetail();
 		sc.close();
 		}  
 		
@@ -62,3 +73,6 @@ public class MarkerInterfaceDemo {
 	
 
 }
+
+
+
