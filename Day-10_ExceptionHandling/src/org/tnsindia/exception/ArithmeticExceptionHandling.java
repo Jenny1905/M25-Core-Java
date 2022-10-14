@@ -16,7 +16,7 @@ public class ArithmeticExceptionHandling {
 			System.out.println("The result is : "+result);
 		}
 		//catch block is used to handle the exception
-		catch(Exception e)
+		catch(ArithmeticException e)
 		{
 			System.out.println(e);
 			System.out.println("Arithmetic Exception handled using catch block");

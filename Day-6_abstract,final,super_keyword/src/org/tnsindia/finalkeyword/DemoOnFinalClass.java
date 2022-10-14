@@ -1,5 +1,6 @@
 package org.tnsindia.finalkeyword;
 
+//Demo on Final Class
 class FinalClass
 {
 	protected String name="Jenny";
@@ -10,20 +11,4 @@ class FinalClass
 	protected String name="Jenny";
 	
 }*/
-//child class(Inheritance)
-class ChildFinal extends FinalClass
-{
-	public void print()
-	{
-		System.out.println(name);
-	}
-}
-public class DemoOnFinalClass {
 
-	public static void main(String[] args) {
-		ChildFinal c=new ChildFinal();
-		c.print();
-
-	}
-
-}
