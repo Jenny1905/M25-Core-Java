@@ -1,6 +1,6 @@
 package org.tnsindia.finalkeyword;
 
-class Child extends FinalMethod
+class ChildFinalMethodDemo extends FinalMethodDemo
 {
 	void accept()
 	{

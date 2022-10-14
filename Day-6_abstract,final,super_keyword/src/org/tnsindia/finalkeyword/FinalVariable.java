@@ -2,7 +2,7 @@ package org.tnsindia.finalkeyword;
 
 //Demo on final keyword with variable
 
-class FinalVariable
+class FinalVariableDemo
 {
 	//if any variable is declared as final , we can't change the value of that variable
 	

@@ -1,7 +1,7 @@
 package org.tnsindia.finalkeyword;
 
 //Demo on Final Class
-class FinalClass
+class FinalClassDemo
 {
 	protected String name="Jenny";
 }

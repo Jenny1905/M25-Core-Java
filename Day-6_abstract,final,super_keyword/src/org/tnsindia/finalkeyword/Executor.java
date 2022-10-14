@@ -5,20 +5,20 @@ public class Executor {
 	public static void main(String[] args) {
 		
 		//driver code for final class-ChildFinalClass
-		ChildFinalClass c=new ChildFinalClass();
+		ChildFinalClassDemo c=new ChildFinalClassDemo();
 		c.print();
 		
 		//driver code for final method inherited but cannot be override-B class
-		B b=new B();
+		ChildFinalMethodInherited b=new ChildFinalMethodInherited();
 		b.display();
 		b.print();
 		
 		//driver code for final method-Child class
-		Child c1=new Child();
+		ChildFinalMethodDemo c1=new ChildFinalMethodDemo();
 		c1.accept();
 		
 		//driver code for final variable
-		FinalVariable f1=new FinalVariable();
+		FinalVariableDemo f1=new FinalVariableDemo();
 		System.out.println(f1.salary);
 		//FinalVariable.display();
 		

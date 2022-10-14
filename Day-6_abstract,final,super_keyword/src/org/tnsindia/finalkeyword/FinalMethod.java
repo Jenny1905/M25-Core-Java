@@ -1,6 +1,6 @@
 package org.tnsindia.finalkeyword;
 
-class FinalMethod
+class FinalMethodDemo
 {
 	//final method cannot be overriden
 	/*
