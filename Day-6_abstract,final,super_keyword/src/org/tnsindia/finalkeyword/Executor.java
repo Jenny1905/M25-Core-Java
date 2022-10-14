@@ -17,8 +17,8 @@ public class Executor {
 		Child c1=new Child();
 		c1.accept();
 		
+		//driver code for final variable
 		FinalVariable f1=new FinalVariable();
-		
 		System.out.println(f1.salary);
 		//FinalVariable.display();
 		
