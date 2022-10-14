@@ -3,7 +3,7 @@ package org.tnsindia.interfaceexample;
 import java.util.Scanner;
 
 //child class to implement the methods of interface
-public class ShapeArea implements Area{
+public class ShapeArea implements AreaDemo{
 
 	@Override
 	public void circle() {

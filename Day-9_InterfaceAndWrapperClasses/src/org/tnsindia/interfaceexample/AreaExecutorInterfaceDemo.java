@@ -1,6 +1,6 @@
 package org.tnsindia.interfaceexample;
 
-public class ExecutorInterface {
+public class AreaExecutorInterfaceDemo {
 
 	public static void main(String[] args) {
 		ShapeArea a=new ShapeArea();

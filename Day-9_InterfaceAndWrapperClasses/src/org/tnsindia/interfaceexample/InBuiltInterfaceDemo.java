@@ -8,18 +8,9 @@ import java.util.Scanner;
  * that classes implementing this marker interface give a thread-safe guarantee,
  *  and any modification should not violate that.
  */
+/*A class implements the Cloneable interface toindicate to the java.lang.Object.clone() method that itis legal for that method
+to make afield-for-field copy of instances of that class. */
 
-//Cloneable is an interface that is used to create the exact copy of an object.
-interface Clonable
-{
-	
-	
-	/*It is an empty interface (no field or methods). Examples of marker interface are 
-	 * Serializable,
-	 * Cloneable and Remote interface. 
-	 * All these interfaces are empty interfaces. 
-	NOTE:-If we not use Clonable as interface still its run because Clonable is marker interface in java*/
-}
 class Product implements Cloneable   
 {  
 	public int pid;  
@@ -44,7 +35,7 @@ class Product implements Cloneable
 		System.out.println("Product Cost: "+pcost);  
 	}  
 }
-public class MarkerInterfaceDemo {
+public class InBuiltInterfaceDemo {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 		
