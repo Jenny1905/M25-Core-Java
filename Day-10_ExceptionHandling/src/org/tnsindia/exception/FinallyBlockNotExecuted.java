@@ -14,7 +14,7 @@ public class FinallyBlockNotExecuted {
 			System.exit(0);
 		}
 	
-		catch(Exception e)
+		catch(ArithmeticException e)
 		{
 			System.out.println("Catch block");
 		}
