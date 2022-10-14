@@ -3,13 +3,13 @@ package org.tnsindia.interfaceexample;
 /*We can use the @FunctionalInterface annotation to ensure that there is
 not more than one abstract method in a functional interface.*/
 
-
-interface FunctionalInterface{  
+@FunctionalInterface
+interface FunctionalInterfacee{  
 	
 	/*FunctionalInterface contains exactly one abstract method*/
     void accept(String msg);  
 }  
-class FunctionalInterfaceExample implements FunctionalInterface{  
+class FunctionalInterfaceExample implements FunctionalInterfacee{  
     public void accept(String msg){  
         System.out.println(msg);  
     }  
