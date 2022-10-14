@@ -8,7 +8,7 @@ public class Executor {
 		ChildFinalClass c=new ChildFinalClass();
 		c.print();
 		
-		//driver code for final method inherited but not be override-B class
+		//driver code for final method inherited but cannot be override-B class
 		B b=new B();
 		b.display();
 		b.print();
@@ -16,6 +16,11 @@ public class Executor {
 		//driver code for final method-Child class
 		Child c1=new Child();
 		c1.accept();
+		
+		FinalVariable f1=new FinalVariable();
+		
+		System.out.println(f1.salary);
+		//FinalVariable.display();
 		
 		
 		
