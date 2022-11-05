@@ -10,10 +10,13 @@ public class ArithmeticExceptionHandling {
 		int a=s.nextInt();
 		System.out.println("Enter the value of b:");
 		int b=s.nextInt();
+
 		//try block contain the exception code
 		try {
 			int result=a/b;
+
 			System.out.println("The result is : "+result);
+			//return;//finally block will execute with  
 		}
 		//catch block is used to handle the exception
 		catch(ArithmeticException e)

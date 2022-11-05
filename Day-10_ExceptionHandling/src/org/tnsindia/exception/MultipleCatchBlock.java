@@ -17,10 +17,12 @@ public class MultipleCatchBlock {
 			System.out.println(e);
 			
 		}
+		//Default Exception-Parent Catch block
 		catch(Exception e)
 		{
 			System.out.println(e);
 		}
+		
 		
 		finally
 		{
